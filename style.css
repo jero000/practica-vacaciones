@@ -44,4 +44,19 @@ h1{
     margin-bottom: 15px;
   }
 
+  @media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+button {
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+  color: white;
+}
   
